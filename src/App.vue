@@ -1,13 +1,44 @@
 <template>
-  <div id="app">
-    <div class="font-bold text-blue-500">Hola</div>
+  <div id="app" class="container mx-auto p-2">
+    <BaseProfile :profile="profile"></BaseProfile>
+    <BaseGallery :photos="profile.photos"></BaseGallery>
+    <BaseFooter></BaseFooter>
   </div>
 </template>
 
 <script>
+import BaseProfile from "@/components/BaseProfile.vue";
+import BaseGallery from "@/components/BaseGallery.vue";
+import BaseFooter from "@/components/BaseFooter.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    BaseProfile,
+    BaseGallery,
+    BaseFooter,
+  },
+  data: function() {
+    return {
+      profile: {
+        name: "Rodney Cotton",
+        location: "Helsinki, Finland",
+        properties: [
+          { name: "Posts", data: 100 },
+          { name: "Followers", data: 2242 },
+          { name: "Following", data: 1432 },
+        ],
+        photos: [
+          { url: "images/photo1.png", rowSpan: 1, colSpan: 1 },
+          { url: "images/photo2.png", rowSpan: 1, colSpan: 2 },
+          { url: "images/photo3.png", rowSpan: 1, colSpan: 2 },
+          { url: "images/photo4.png", rowSpan: 2, colSpan: 1 },
+          { url: "images/photo5.png", rowSpan: 1, colSpan: 1 },
+          { url: "images/photo6.png", rowSpan: 1, colSpan: 1 },
+        ],
+      },
+    };
+  },
 };
 </script>
 
