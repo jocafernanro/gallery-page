@@ -5,7 +5,7 @@ The challenge and the requirements here: [https://devchallenges.io/challenges/gc
 
 ## Project
 
-This is a simple vue project with tailwindcss and no much more. Check it on live here https://recipe-blog-devchallenges.josematico.com/
+This is a simple vue project with tailwindcss and no much more. Check it on live here https://my-gallery.josematico.com/
 
 ## Project setup
 
