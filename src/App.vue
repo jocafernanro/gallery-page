@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container mx-auto p-2">
+  <div id="app" class="container mx-auto p-3">
     <BaseProfile :profile="profile"></BaseProfile>
     <BaseGallery :photos="profile.photos"></BaseGallery>
     <BaseFooter></BaseFooter>
