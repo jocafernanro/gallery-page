@@ -1,6 +1,6 @@
 # [Dev challenge] My gallery page
 
-This is a project made for a dev challenge (url: [https://devchallenges.io/](https://devchallenges.io/)) It consists on developing a recipe blog page following the user stories.
+This is a project made for a dev challenge (url: [https://devchallenges.io/](https://devchallenges.io/)) It consists on developing a gallery page following the user stories.
 The challenge and the requirements here: [https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I)
 
 ## Project
